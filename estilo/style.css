@@ -135,9 +135,16 @@ section#corpo {
 	float: left;
 	border-right: 1px solid #606060;
     padding: 12px;
-	
-
 }
+	article#noticia-principal h2{
+		font-size: 12pt;
+		color: #606060;
+		background-color: #dddddd;
+		padding: 5px 0px 5px 10px;
+		margin: 10px 0px 10px 0px ;
+	}	
+
+
 aside#lateral{
 	display: block;
 	width: 400px;
@@ -195,13 +202,7 @@ table#tabelaspec caption span{
 	margin-top: 10px;
 }
 
-article#noticia-principal h2{
-	font-size: 12pt;
-	color: #606060;
-	background-color: #dddddd;
-	padding: 5px 0px 5px 10px;
-	margin: 10px 0px 10px 0px ;
-}
+
 footer#rodape{
 	clear: both;    /*limpar a config aside e section-conteudo fora da divisao */
 	border-top: 1px solid #606060;
