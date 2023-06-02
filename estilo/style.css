@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 @font-face {
@@ -202,4 +201,11 @@ article#noticia-principal h2{
 	background-color: #dddddd;
 	padding: 5px 0px 5px 10px;
 	margin: 10px 0px 10px 0px ;
+}
+footer#rodape{
+	clear: both;    /*limpar a config aside e section-conteudo fora da divisao */
+	border-top: 1px solid #606060;
+}
+footer#rodape p{
+	text-align: center;
 }
